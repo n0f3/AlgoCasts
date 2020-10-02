@@ -5,6 +5,7 @@
 // maxChar("abcccccccd") === "c"
 // maxChar("apple 1231111") === "1"
 
+// My solution
 function maxChar(str) {
   const occurrencies = {};
   for(const char of str) {
@@ -20,5 +21,8 @@ function maxChar(str) {
   }
   return maxKey;
 }
+
+// More solutions
+
 
 module.exports = maxChar;
