@@ -18,7 +18,7 @@
 //   return str.split(' ').map((word) => word[0].toUpperCase().concat(word.slice(1))).join(' ');
 // }
 
-// better optimized
+// for loop
 function capitalize(str) {
   let newString = '';
   let startWord = 0;
